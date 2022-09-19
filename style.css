@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+	font-family:'Arial';
+}
+
+header{
+    background: rgb(65, 61, 146);
+}
+
+.title {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+input{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.resultado {
+    color: red;
+}
